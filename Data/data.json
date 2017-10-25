@@ -1,0 +1,65 @@
+[
+  {
+    "name": "道格小屋店铺",
+    "con": [
+      {
+        "imgs": "Scripts/images/sell_02.png",
+        "one": "涂指甲油啦啦啦",
+        "two": "别往嘴里吃",
+        "three": 98,
+        "states": true,
+        "val": 1
+      }
+    ]
+  },
+  {
+    "name": "亲爱的客栈店铺",
+    "con": [
+      {
+        "imgs": "Scripts/images/sell_04.png",
+        "one": "吃喝玩乐打扫卫生",
+        "two": "亿千瓦",
+        "three": 454,
+        "states": false,
+        "val": 1
+      },
+      {
+        "imgs": "Scripts/images/sell_06.png",
+        "one": "民为邦本，本固邦宁",
+        "two": "加油",
+        "three": 123,
+        "states": false,
+        "val": 1
+      }
+    ]
+  },
+  {
+    "name": "悠悠我心店铺",
+    "con": [
+      {
+        "imgs": "Scripts/images/sell_10.png",
+        "one": "青青子衿悠悠我心",
+        "two": "呃呃呃",
+        "three": 22,
+        "states": false,
+        "val": 1
+      },
+      {
+        "imgs": "Scripts/images/sell_11.png",
+        "one": "我们才初 初相遇",
+        "two": "席慕容",
+        "three": 343,
+        "states": false,
+        "val": 1
+      },
+      {
+        "imgs": "Scripts/images/sell_12.png",
+        "one": "我们才初 初相遇",
+        "two": "席慕容",
+        "three": 87,
+        "states": false,
+        "val": 1
+      }
+    ]
+  }
+]

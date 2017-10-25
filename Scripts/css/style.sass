@@ -1,0 +1,171 @@
+@charset "UTF-8"
+*
+  margin: 0
+  padding: 0
+html
+  font-size: 62.5%
+html,body,.box
+  width: 100%
+  height: 100%
+  font-family: "微软雅黑 Light"
+.box
+  display: flex
+  flex-direction: column
+  position: relative
+  .bott
+    position: absolute
+    bottom: 3.9rem
+    width: 100%
+    height: 4rem
+    border-top: 1px solid #dedede
+    display: flex
+    align-items: center
+    background: #fff
+    z-index: 999
+    .all
+      flex: 2
+      text-align: center
+      span
+        padding: 4px
+        border: 2px solid #dedede
+        border-radius: 50%
+        font-size: 15px
+        color: #fff
+      .on
+        background: coral
+      b
+        font-size: 15px
+        margin-left: 3px
+    .price
+      flex: 6
+      text-align: right
+      margin-right: 5px
+      b
+        font-size: 15px
+        i
+          font-style: normal
+    .sale
+      flex: 3
+      height: 100%
+      line-height: 4rem
+      text-align: center
+      background: coral
+      b
+        font-size: 15px
+        color: #fff
+        font-weight: normal
+        i
+          font-style: normal
+          padding: 0px 1px
+  .header
+    width: 100%
+    height: 4rem
+    background: coral
+    display: flex
+    align-items: center
+    span
+      flex: 1
+      text-align: center
+      font-size: 1.4rem
+      color: #fff
+    h1
+      flex: 5
+      text-align: center
+      font-size: 2rem
+      color: #fff
+  .main
+    width: 100%
+    flex: 1
+    overflow: hidden
+    overflow-y: scroll
+    background: #d5d5d5
+    .hall
+      width: 100%
+      .list
+        width: 100%
+        overflow: hidden
+        background: #fff
+        margin-bottom: 10px
+        .name
+          width: 100%
+          height: 3.5rem
+          border-bottom: 1px solid #ccc
+          line-height: 3.5rem
+          text-indent: 1rem
+          font-size: 2rem
+          color: #f74d4d
+        .content
+          width: 100%
+          height: 8rem
+          display: flex
+          .dan
+            flex: 1
+            text-align: center
+            span
+              padding: 4px
+              border: 2px solid #dedede
+              border-radius: 50%
+              font-size: 15px
+              color: #fff
+              line-height: 8rem
+            .on
+              background: coral
+          dl
+            flex: 10
+            height: 100%
+            display: flex
+            align-items: center
+            position: relative
+            .change
+              position: absolute
+              right: 2px
+              bottom: 1.5rem
+              button
+                width: 25px
+                height: 25px
+                background: none
+                border: 1px solid #ccc
+                font-size: 1.5rem
+            dt
+              flex: 1
+              text-align: center
+              img
+                width: 80%
+                height: auto
+            dd
+              flex: 3
+              height: 100%
+              display: flex
+              flex-direction: column
+              b
+                font-size: 1.8em
+                padding-top: 8px
+                font-weight: normal
+              i
+                font-size: 1.5rem
+                color: #666
+                font-style: normal
+                padding: 3px 0px
+              strong
+                font-size: 1.6rem
+                color: coral
+  .footer
+    width: 100%
+    height: 4rem
+    background: coral
+    ul
+      width: 100%
+      height: 100%
+      display: flex
+      align-items: center
+      li
+        flex: 1
+        text-align: center
+        display: flex
+        flex-direction: column
+        color: #fff
+        span
+          font-size: 2rem
+        b
+          font-weight: normal
+          font-size: 1.4rem

@@ -1,0 +1,27 @@
+<div class="wrapper">
+    <div class="hall">
+        <div class="list" ng-repeat="user in users">
+            <div class="name">
+                {{user.name}}
+            </div>
+            <div class="content" ng-repeat="use in user.con">
+                <div class="dan">
+                    <span class="iconfont icon-dui" ng-click="dan(use)" ng-class="{on:use.states}"></span>
+                </div>
+                <dl>
+                    <dt><img ng-src="{{use.imgs}}" alt=""></dt>
+                    <dd>
+                        <b>{{use.one}}</b>
+                        <i>{{use.two}}</i>
+                        <strong>￥{{use.three}}</strong>
+                    </dd>
+                    <div class="change">
+                        <button ng-click="handle('-',use)">-</button>
+                        <button>{{use.val}}</button>
+                        <button ng-click="handle('+',use)">+</button>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="box">
+    <div class="bott">
+        <div class="all">
+            <span class="iconfont icon-dui" ng-click="all()" ng-class="{on:alls}"></span>
+            <b>全选</b>
+        </div>
+        <div class="price">
+            <b>合计: ￥<i>{{sum}}</i></b>
+        </div>
+        <div class="sale">
+            <b>结算: (<i>{{numbers}}</i>)</b>
+        </div>
+    </div>
+    <header class="header">
+        <span></span>
+        <h1>购物车</h1>
+        <span>管理</span>
+    </header>
+    <section class="main">
+        <ng-view></ng-view>
+    </section>
+    <footer class="footer">
+        <ul>
+            <li>
+                <span class="iconfont icon-shouye"></span>
+                <b>首页</b>
+            </li>
+            <li>
+                <span class="iconfont icon-taobao21"></span>
+                <b>微淘</b>
+            </li>
+            <li>
+                <span class="iconfont icon-fenxiang"></span>
+                <b>分享</b>
+            </li>
+            <li>
+                <span class="iconfont icon-gouwuche"></span>
+                <b>购物车</b>
+            </li>
+            <li>
+                <span class="iconfont icon-taobao"></span>
+                <b>我的淘宝</b>
+            </li>
+        </ul>
+    </footer>
+</div>
